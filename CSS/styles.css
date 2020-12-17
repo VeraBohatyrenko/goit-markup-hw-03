@@ -24,7 +24,6 @@ h5,
 h6,
 p {
   margin-top: 0;
-  margin-bottom: 0;
 }
 
 body {
@@ -72,7 +71,11 @@ img {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  margin: 0 auto;
+  margin-right: auto;
+  margin-left: auto;
+  align-content: center;
+  vertical-align: baseline;
+  outline: 2px solid tomato;
 }
 
 .section {
@@ -149,9 +152,12 @@ img {
 
 .hero {
   background-color: var(--secondary-black-color);
+  text-align: center;
+  padding: 200px 0;
 }
 
 .hero-title {
+  margin-bottom: 30;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -163,11 +169,19 @@ img {
 .button {
   width: 200px;
   height: 50px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
   background: #2196F3;
   border: 1px solid var(--accent-color);
   border-radius: 4px;
   color: #ffffff;
   font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
  
 
