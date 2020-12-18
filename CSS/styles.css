@@ -83,10 +83,13 @@ img {
 
 /* Header (Шапка) */
 
+.header {
+  border-bottom:  1px solid #ECECEC;
+}
+
 .header-container {
   display: flex;
   justify-content: space-between;
-  border-bottom:  1px solid #ECECEC;
 }
 
 .header-logo {
