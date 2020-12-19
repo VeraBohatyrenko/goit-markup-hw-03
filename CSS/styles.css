@@ -352,17 +352,13 @@ img {
 }
 
 /* Portfolio */
-
- 
-.filter-container{
-  margin-bottom: 50px;
-} 
+  
 
 .buttons-filter-list {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
-
 
 .filter-item:not(:last-child) {
   margin-right: 8px;
@@ -419,13 +415,18 @@ img {
   margin-bottom: 30px;
 }
 
+.portfolio-card-name {
+  padding: 20px 24px;
+}
+
+
 .item-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
-  margin: 20px 24px 4px;
+  margin-bottom: 4px;
 }
 
 .item-text {
@@ -434,5 +435,5 @@ img {
   line-height: 1.9;
   letter-spacing: 0.03em;
   color: #757575;
-  margin-left: 24px;
+  margin: 0;
 }
